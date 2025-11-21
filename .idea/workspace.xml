@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2584d65-35a5-431f-8864-2503a13b8b01" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Souhardya0903&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Souhardya0903/licensetracker.git&quot;,
+    &quot;accountId&quot;: &quot;9edd3ee3-7963-4de4-be7c-ecbfaaf43f81&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="34YzAVhSSTHOnnnV2sxuSyHTULa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LicensetrackerApplication.executor": "Run",
+    "JUnit.AssignmentServiceTest.executor": "Run",
+    "JUnit.AuthControllerTest.executor": "Run",
+    "JUnit.DeviceControllerTest.executor": "Run",
+    "JUnit.DeviceServiceTest.executor": "Run",
+    "JUnit.LicenseServiceTest.executor": "Run",
+    "JUnit.VendorServiceTest.executor": "Run",
+    "Maven.licensetracker [clean].executor": "Run",
+    "Maven.licensetracker [install].executor": "Run",
+    "Maven.licensetracker [validate].executor": "Run",
+    "Maven.licensetracker [verify].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "backend"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\souhardyadas.p\Downloads\licensetracker\src\main\java\com\project\logs" />
+      <recent name="C:\Users\souhardyadas.p\Downloads\licensetracker\frontend\src\components" />
+      <recent name="C:\Users\souhardyadas.p\Downloads\licensetracker\backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LicensetrackerApplication">
+    <configuration name="LicensetrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="GEMINI_API_KEY" value="AIzaSyDvLxAA8D-MYODrS0CvcUj3G-fFg9b4NUs" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.project.LicensetrackerApplication" />
+      <module name="licensetracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="licensetracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.service" />
+      <option name="MAIN_CLASS_NAME" value="com.project.service.AssignmentServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LicensetrackerApplication" />
+      <item itemvalue="JUnit.AssignmentServiceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LicensetrackerApplication" />
+        <item itemvalue="JUnit.AssignmentServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2584d65-35a5-431f-8864-2503a13b8b01" name="Changes" comment="" />
+      <created>1761405150658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761405150658</updated>
+    </task>
+    <servers />
+  </component>
+</project>
