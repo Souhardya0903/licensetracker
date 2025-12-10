@@ -1,0 +1,19 @@
+:root {
+  --background-dark: #111827; /* Dark Gray */
+  --surface-dark: #1f2937;    /* Lighter Gray */
+  --primary: #6366f1;         /* Indigo */
+  --text-light: #f9fafb;       /* Almost White */
+  --text-muted: #9ca3af;       /* Muted Gray */
+  --border-dark: #374151;      /* Dark Border */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-dark);
+  color: var(--text-light);
+}

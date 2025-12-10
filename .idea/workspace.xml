@@ -4,7 +4,201 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2584d65-35a5-431f-8864-2503a13b8b01" name="Changes" comment="" />
+    <list default="true" id="c2584d65-35a5-431f-8864-2503a13b8b01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decompile.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decompile_v2.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/move_files.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/LicensetrackerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/ai/AiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/ai/ChatAssistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/ai/LicenseTrackerTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/aspect/AuditLoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/aspect/Auditable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/config/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/AIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/AlertsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/AssignmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/AuditLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/DeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/LicenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/ReportsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/SoftwareVersionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/controller/VendorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/AssignmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/AuditLogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/DashboardOverviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/DeviceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/LicenseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/ReminderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/SoftwareVersionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/UsersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/dto/VendorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/ActionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/AuditLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/License.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/LicenseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/LifecycleStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/Software.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/SoftwareStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/SoftwareVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/entity/Vendor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/AssignmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/AuditLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/LicenseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/SoftwareRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/SoftwareVersionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/repository/VendorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/scheduler/LicenseAlertScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/security/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AlertsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AlertsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AssignmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AssignmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AuditLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AuditLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/AuditServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/DashboardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/DashboardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/DeviceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/LicenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/LicenseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/PdfGenerationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/ReportsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/ReportsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/SoftwareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/SoftwareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/SoftwareVersionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/SoftwareVersionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/VendorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/service/VendorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/LicensetrackerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/LicensetrackerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/ai/AiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/ai/AiConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/ai/ChatAssistant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/ai/ChatAssistant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/ai/LicenseTrackerTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/ai/LicenseTrackerTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/aspect/AuditLoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/aspect/AuditLoggingAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/aspect/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/aspect/LoggingAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/config/OpenAPIConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/config/OpenAPIConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/AIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/AIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/AlertsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/AlertsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/AssignmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/AssignmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/DeviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/DeviceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/LicenseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/LicenseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/ReportsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/ReportsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/SoftwareVersionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/SoftwareVersionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/controller/VendorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/controller/VendorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/AssignmentDto$AssignmentDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/AssignmentDto$AssignmentDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/AssignmentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/AssignmentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/AuditLogDto$AuditLogDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/AuditLogDto$AuditLogDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/AuditLogDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/AuditLogDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/AuthRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/AuthRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/AuthResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/AuthResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/DashboardOverviewDto$DashboardOverviewDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/DashboardOverviewDto$DashboardOverviewDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/DashboardOverviewDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/DashboardOverviewDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/DeviceDto$DeviceDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/DeviceDto$DeviceDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/DeviceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/DeviceDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/ErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/LicenseDto$LicenseDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/LicenseDto$LicenseDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/LicenseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/LicenseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/ReminderRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/ReminderRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/SoftwareVersionDto$SoftwareVersionDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/SoftwareVersionDto$SoftwareVersionDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/SoftwareVersionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/SoftwareVersionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/UserDto$UserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/UsersDto$UsersDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/UsersDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/UsersDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/VendorDto$VendorDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/VendorDto$VendorDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/dto/VendorDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/dto/VendorDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/ActionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/ActionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Assignment$AssignmentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Assignment$AssignmentBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Assignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Assignment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/AuditLog$AuditLogBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/AuditLog$AuditLogBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/AuditLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/AuditLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Device$DeviceBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Device$DeviceBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/License$LicenseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/License$LicenseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/License.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/License.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/LicenseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/LicenseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/LifecycleStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/LifecycleStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Software$SoftwareBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Software$SoftwareBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Software.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Software.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/SoftwareStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/SoftwareStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/SoftwareVersion$SoftwareVersionBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/SoftwareVersion$SoftwareVersionBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/SoftwareVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/SoftwareVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/UserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Users$UsersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Users$UsersBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Vendor$VendorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Vendor$VendorBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/entity/Vendor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/entity/Vendor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/exception/DuplicateResourceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/exception/DuplicateResourceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/AssignmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/AssignmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/AuditLogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/AuditLogRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/DeviceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/DeviceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/LicenseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/LicenseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/SoftwareVersionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/SoftwareVersionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/repository/VendorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/repository/VendorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/scheduler/LicenseAlertScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/scheduler/LicenseAlertScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/security/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/security/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/security/JwtRequestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/security/JwtRequestFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/security/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/security/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/security/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/AssignmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/AssignmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/AuditLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/AuditLogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/AuditLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/AuditLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/DashboardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/DashboardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/DeviceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/DeviceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/DeviceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/DeviceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/LicenseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/LicenseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/LicenseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/LicenseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/PdfGenerationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/PdfGenerationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/ReportsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/ReportsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareVersionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareVersionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareVersionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/SoftwareVersionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/VendorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/VendorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/service/VendorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/service/VendorServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +207,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -47,29 +243,32 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="34YzAVhSSTHOnnnV2sxuSyHTULa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LicensetrackerApplication.executor": "Run",
-    "JUnit.AssignmentServiceTest.executor": "Run",
-    "JUnit.AuthControllerTest.executor": "Run",
-    "JUnit.DeviceControllerTest.executor": "Run",
-    "JUnit.DeviceServiceTest.executor": "Run",
-    "JUnit.LicenseServiceTest.executor": "Run",
-    "JUnit.VendorServiceTest.executor": "Run",
-    "Maven.licensetracker [clean].executor": "Run",
-    "Maven.licensetracker [install].executor": "Run",
-    "Maven.licensetracker [validate].executor": "Run",
-    "Maven.licensetracker [verify].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "git-widget-placeholder": "backend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LicensetrackerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AssignmentServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LicenseServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VendorServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.licensetracker [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.licensetracker [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.licensetracker [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.licensetracker [verify].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;frontend&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\souhardyadas.p\Downloads\licensetracker\src\main\java\com\project\logs" />
